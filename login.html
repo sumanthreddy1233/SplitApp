@@ -2,12 +2,15 @@
 <html>
 <head>
     <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Login Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' href='index.css'>
+    <link rel='stylesheet' type='text/css' href='css/index.css'>
+    <script src='js/messageHandler.js'></script>
 </head>
 <body>
-    <div class="login-form">
+    <div class="signup-form">
         <h1>Login</h1>
 
         <!-- OAuth Login Buttons -->
@@ -18,7 +21,7 @@
         <hr>
 
         <!-- Traditional Login Form -->
-        <form action="connect.php" method="post">
+        <form action="php/login.php" method="post">
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
 
@@ -32,5 +35,6 @@
             Don't have an account? <a href="/signup">Sign up</a>
         </div>
     </div>
+    <script> src ="js/messageHandler.js"</script>
 </body>
 </html>

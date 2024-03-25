@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "/Users/sumanthreddy/test/index.html"
+            "name": "Open signUp.html",
+            "file": "/Users/sumanthreddy/SplitAPP/signUp.html"
         }
     ]
 }

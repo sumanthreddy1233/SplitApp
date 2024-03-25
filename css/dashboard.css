@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #2ecc71;
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar h1 {
+    color: white;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.top-actions button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.summary-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.detail-sections > div {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Add more styles for other elements as needed */
